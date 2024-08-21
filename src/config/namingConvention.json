@@ -1,0 +1,11 @@
+{
+  "format": {
+    "$field": {
+      "setAction": "combine"
+    },
+    "subnet": {
+      "formatString": "{ENVIRONMENT}{-}{PROJECT}{-}{INSTANCE}[{-}{UNIQUE}]"
+    }
+  },
+  "placeholders": {}
+}
